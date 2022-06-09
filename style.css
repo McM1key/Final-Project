@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+div {
+  display: block;
+}
+
+/* Header */
+
+header {
+  background-color: rgba(255, 255, 255, 0.43);
+  box-shadow: 0px 0px 3px #3f3f3f;  
+  position: fixed;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+ display: block;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  font-size: 16px;
+  font-weight: 600;
+  /* position: relative; */
+  text-transform: capitalize;
+  padding: 25px 24px;
+  display: block;
+  color: #5a5a5a;
+}
+
+.menu li a:hover,
+.menu li a.current {
+  background-color: #3f3f3f;;
+  color: #ffffff;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+
+/* Showacse */
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.showcase-img {
+  margin-top: 100px;
+}
+
+.info {
+  background-color: #f7f7f7;
+  margin-top: 210px;
+  padding: 30px;
+}
+
+.main-info {
+  padding: 60px 30px;
+  border: 3px solid #fff;
+}
+
+.main-info h2 {
+  font-size: 80px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.main-info span {
+  font-weight: bold;
+}
+
+.main-info h3{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  color: #818080;
+}
+
+/* Portfolio */
+
+.portfolio {
+  padding: 100px 0px;
+}
+
+.container-3 {
+  margin: 0px 81px;
+  padding: 0px 15px;
+}
+
+.portfolio-menu {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.portfolio-menu button {
+  margin: 20px;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  padding: 7px 20px;
+  color: #5a5a5a;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.portfolio-menu button:hover,
+.portfolio-menu button.current-2 {
+  background-color: #3f3f3f;;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.portfolio-img {
+  /* position: relative; */
+  display: block;
+}
+
+.main-img img {
+  padding: 15px;
+}
+
+.main-img {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.img-7 {
+  padding-left: 20px;
+}
+.portfolio-text {
+  text-align: center;
+  margin: 30px;
+  font-size: 25px;
+}
+
+.portfolio-text a {
+  color: #5a5a5a;
+}
+
+.portfolio-text a:hover {
+  color: #aaa9a9;
+}
+
+
+
+.blog {
+  background: #f7f7f7;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  border-top: 1px solid #dee2e6!important;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.row-3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-content-2 {
+  text-align: center;
+}
+
+.main-content-2 h3, 
+.main-content-2 p {
+  margin-top: 5px;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0px;
+}
+
+
+
+footer ul {
+  display: flex;
+}
+
+footer ul li a {
+  padding: 10px;
+  color: #5a5a5a;
+  font-weight: bold;
+}
+
+
